@@ -1,0 +1,90 @@
+.container{
+    width: 100%;
+    min-height:100vh;
+    background: radial-gradient(#0a0009,#1f2949);
+    color:#fff;
+    position: relative;
+    /* background-image: url(./Images/blue1.png); */
+   
+}
+.content a{
+   padding:5px;
+   color: white;
+}
+h1{
+    text-align: center;
+    font-family: 'Puppies Play', cursive;
+}
+div p{
+  
+    margin-top: -46%;
+    margin-left: 58%;
+    width:400px;
+    height:400px;
+    text-align: justify;
+    position: absolute;
+    font-family: 'Puppies Play', cursive;
+}
+div img{
+    width:98%;
+    height:500px;
+    position: relative;
+}
+.content{
+    width: 100%;
+    height:100px;
+    margin-top: 20px;
+    position: relative;
+    
+}
+.content a{
+    color: white;
+}
+.feat-image{
+   
+    
+    width:100%;
+    height:500px;
+    
+
+}
+table{
+    color: white;
+}
+h2{ 
+    margin-top: 45%;
+    text-align: center;
+    color: white;
+    font-family: 'Puppies Play', cursive;
+}
+td .class{
+    width:100px;
+    height:100px;
+}
+.container1 img{
+    width: 700px;
+    height: 400px;
+    margin-top: 1%;
+    margin-left: 150px;
+}
+.col-4{
+
+    width:600px;
+    height:200px;
+    text-align: center;
+   padding: 5px;
+    margin-top: 50px;
+}
+.col-4 img{
+    width: 200px;
+    height:200px;
+    
+
+}
+#i1{
+    margin-top: 20px;
+    margin-left: 400px;
+}
+#i2{
+    margin-left:170px;
+}
