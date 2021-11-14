@@ -1,28 +1,45 @@
-.container{
+.content{
+   background-image: url(./Images/R.jpeg);
+}
+.container img{
     width: 100%;
-    min-height:100vh;
-    background: radial-gradient(#0a0009,#1f2949);
-    color:#fff;
+    height: 1200px;
     position: relative;
-    /* background-image: url(./Images/blue1.png); */
+    background: rgb(48, 48, 73) 
+    }
+    
+    
+    
    
+
+.text-block {
+    position: absolute;
+    font-size: 120%;
+    top: 40px;
+    right: 20px;
+    color:black;
+    padding: 20px;
+    font-family: 'Puppies Play', cursive;
 }
-.content a{
-   padding:5px;
-   color: white;
+a{
+    color: black;
 }
+
 h1{
+    
     text-align: center;
     font-family: 'Puppies Play', cursive;
 }
-div p{
-  
-    margin-top: -46%;
-    margin-left: 58%;
-    width:400px;
-    height:400px;
-    text-align: justify;
+.centered{
     position: absolute;
+    
+    top: 50%;
+    left: 48%;
+    width:50%;
+    height:600px;
+    color: white;
+    text-align: justify;
+    font-size: 150%;
     font-family: 'Puppies Play', cursive;
 }
 div img{
@@ -30,16 +47,7 @@ div img{
     height:500px;
     position: relative;
 }
-.content{
-    width: 100%;
-    height:100px;
-    margin-top: 20px;
-    position: relative;
-    
-}
-.content a{
-    color: white;
-}
+
 .feat-image{
    
     
@@ -52,39 +60,44 @@ table{
     color: white;
 }
 h2{ 
-    margin-top: 45%;
-    text-align: center;
-    color: white;
     font-family: 'Puppies Play', cursive;
+    margin-top: 5%;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+   
 }
 td .class{
     width:100px;
     height:100px;
 }
+
 .container1 img{
-    width: 700px;
+    width: 80%;
     height: 400px;
     margin-top: 1%;
-    margin-left: 150px;
+   
 }
 .col-4{
-
-    width:600px;
-    height:200px;
+    padding: 10px;
+    width:100%; 
+    height:361px;
+    font-size: 20px;
+    font-family: 'Puppies Play', cursive;
     text-align: center;
    padding: 5px;
     margin-top: 50px;
+    justify-content: space-evenly;
+    background-image: ;
+  
 }
 .col-4 img{
-    width: 200px;
-    height:200px;
+    width: 40%;
+    height:300px;
+    float: left;
     
 
 }
-#i1{
-    margin-top: 20px;
-    margin-left: 400px;
-}
-#i2{
-    margin-left:170px;
+.col-4 p{
+    width:50%
 }
